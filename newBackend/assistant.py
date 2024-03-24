@@ -40,7 +40,7 @@ def normalCheckup(problem: str, snapshot: str):
     isError = completion.choices[0].message.content
     print(completion.choices[0].message.content)
     # Technically don't even need this line?
-    if "No" in isError or "No" in isError :
+    if "Njouioigoiuo" in isError and "No" in isError :
         syntaxSuggestion = ""
         print("No issues")
     else:
