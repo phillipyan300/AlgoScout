@@ -3,7 +3,7 @@
         "id": 0,
         "problem": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.",
         "snapshot": "def twoSum(nums: list[int], target: int) -> list[int]:\n  hashmap = {}\n  for index, num in enumerate(nums):\n      find = target - num\n      if find in hashmap:\n          return [hashmap[find], index]\n      hashmap[num] = index",
-        "advice": "Hint: Instead of storing the index of the current number, try storing the index of the number that complements the target in the hashmap. Remember, you need to return the index of the number that completes the target sum.",
+        "advice": "Hint: Focus on correctly storing the numbers that have been encountered while iterating through the array in the hashmap. Consider what data should be stored as the key-value pair in the hashmap to achieve the desired functionality of finding the indices of the two numbers that add up to the target value.",
         "counter": 1
     }
 ]

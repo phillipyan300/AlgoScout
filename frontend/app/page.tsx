@@ -15,7 +15,7 @@ export default function Home() {
     const file = input.files[0];
     const text = await file.text();
 
-    fetch('http://192.168.1.122:3001/upload_question', {
+    fetch('http://localhost:3001/upload_question', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
