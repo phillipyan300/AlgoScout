@@ -2,6 +2,8 @@
 
 ![Logo](resources/AlgoScout1.png)
 
+![Logo](resources/AlgoScout3.png)
+
 ![Logo](resources/AlgoScout2.png)
 
 Customizable interviewing platform for interviewees to practice, receive real-time hints, and gain personalized insights from voice-analyzed sessions, pinpointing strengths and areas for growth.
