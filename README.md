@@ -1,3 +1,15 @@
+
+
+![Logo](resources/AlgoScout1.png)
+
+![Logo](resources/AlgoScout2.png)
+
+Customizable interviewing platform for interviewees to practice, receive real-time hints, and gain personalized insights from voice-analyzed sessions, pinpointing strengths and areas for growth.
+
+
+### Devpost Link: https://devpost.com/software/interview-assistant-ys506v
+
+
 ## Inspiration
 As both sophomore undergraduates recently thrust upon the SWE recruiting world for summer internships, we realized many of our accomplished and technically skilled peers were often screened away after the initial resume screen without being given an opportunity to demonstrate any of their skills. Furthermore, we noticed that the current pipeline of going from resume screen to coding assessment often lacked insight on the actual skill of the user; the current industry metric is simply how many test cases one passes, and often times can be a coin toss as to whether applicants have seen the algorithm or not. At the same time, a formal interview is a significant investment for the hiring company, as it inherently limits the number of applicants which the company can search from to determine an optimal choice. AlgoScout helps address these issues.
 
