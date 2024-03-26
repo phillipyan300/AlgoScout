@@ -2,7 +2,7 @@
 
 ![Logo](resources/AlgoScout1.png)
 
-![Logo](resources/AlgoScout3.png)
+![Logo](resources/Algoscout3.png)
 
 ![Logo](resources/AlgoScout2.png)
 
