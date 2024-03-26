@@ -50,7 +50,7 @@ export default function IDE() {
   const [resultsLoading, setResultsLoading] = useState(false);
 
   function testCode() {
-    fetch('http://192.168.1.122:3001/test_code', {
+    fetch('http://localhost:3001/test_code', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -77,7 +77,7 @@ export default function IDE() {
 
     setResultsLoading(true);
 
-    fetch('http://192.168.1.122:3001/submit', {
+    fetch('http://localhost:3001/submit', {
       method: 'POST',
       body: formData,
     })
@@ -86,7 +86,7 @@ export default function IDE() {
   }
 
   useEffect(() => {
-    fetch(`http://192.168.1.122:3001/get_question_${params.problemName}`)
+    fetch(`http://localhost:3001/get_question_${params.problemName}`)
       .then(response => response.json())
       .then(data => setProblemStatement(data));
 
@@ -101,7 +101,7 @@ export default function IDE() {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch('http://192.168.1.122:3001/cycle_help', {
+      fetch('http://localhost:3001/cycle_help', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -194,7 +194,7 @@ ${data.response}`
         </div>
       </div>
       <div className="grow-[2] basis-0">
-        <p className="bg-white rounded p-4 h-full whitespace-pre-wrap">
+        <p className="bg-white rounded p-4 h-full whitespace-pre-wrap overflow-y-scroll">
           {gptAdvice.slice(0, gptAdviceDisplayedLength)}
         </p>
       </div>
