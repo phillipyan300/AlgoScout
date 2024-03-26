@@ -32,4 +32,4 @@ We learned quite a bit regarding working with GPT and fine tuning products.
 
 
 ## What's next for Interview Assistant
-As hinted by our upload hope to expand this into a full suite with 
+As hinted by our upload hope to expand this into a full suite of interviewing tools and testing software 
